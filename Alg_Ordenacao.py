@@ -76,17 +76,34 @@ def quick_sort(a):
         return quick_sort(esq) + meio + quick_sort(direita)
 
 
-# Função pra rodar todos ao mesmo tempo
-def test_sorting_algorithms():
-    arr = [64, 34, 25, 12, 22, 11, 90]
+# Função Shell Sort
+def shell_sort(a):
+    n = len(a)
+    diff = n // 2
+    while diff > 0:
+        for i in range(diff, n):
+            temp = a[i]
+            j = i
+            while j >= diff and a[j - diff] > temp:
+                a[j] = a[j - diff]
+                j -= diff
+            a[j] = temp
+        diff //= 2
+    return a
 
-    print("Array Original:", arr)
-    print("Bubble Sort:", bubble_sort(arr.copy()))
-    print("Insertion Sort:", insertion_sort(arr.copy()))
-    print("Selection Sort:", selection_sort(arr.copy()))
-    print("Merge Sort:", merge_sort(arr.copy()))
-    print("Quick Sort:", quick_sort(arr.copy()))
+
+# Função para testar todos os algoritmos
+def teste():
+    a = [64, 34, 25, 12, 22, 11, 90]
+
+    print("Array Original:", a)
+    print("Bubble Sort:", bubble_sort(a.copy()))
+    print("Insertion Sort:", insertion_sort(a.copy()))
+    print("Selection Sort:", selection_sort(a.copy()))
+    print("Merge Sort:", merge_sort(a.copy()))
+    print("Quick Sort:", quick_sort(a.copy()))
+    print("Shell Sort:", shell_sort(a.copy()))
 
 
 # Rodar
-test_sorting_algorithms()
+teste()
