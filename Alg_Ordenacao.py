@@ -93,17 +93,17 @@ def shell_sort(a):
 
 
 # Função para testar todos os algoritmos
-def teste():
-    a = [64, 34, 25, 12, 22, 11, 90]
+# def teste():
+#     a = [64, 34, 25, 12, 22, 11, 90]
 
-    print("Array Original:", a)
-    print("Bubble Sort:", bubble_sort(a.copy()))
-    print("Insertion Sort:", insertion_sort(a.copy()))
-    print("Selection Sort:", selection_sort(a.copy()))
-    print("Merge Sort:", merge_sort(a.copy()))
-    print("Quick Sort:", quick_sort(a.copy()))
-    print("Shell Sort:", shell_sort(a.copy()))
+#     print("Array Original:", a)
+#     print("Bubble Sort:", bubble_sort(a.copy()))
+#     print("Insertion Sort:", insertion_sort(a.copy()))
+#     print("Selection Sort:", selection_sort(a.copy()))
+#     print("Merge Sort:", merge_sort(a.copy()))
+#     print("Quick Sort:", quick_sort(a.copy()))
+#     print("Shell Sort:", shell_sort(a.copy()))
 
 
-# Rodar
-teste()
+# # Rodar
+# teste()
