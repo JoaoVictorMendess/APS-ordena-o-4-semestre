@@ -6,14 +6,14 @@ def processar_transacao(id_transacao, valor):
     momento_atual = datetime.now()
     
     # Formata a data e hora
-    timestamp = momento_atual.strftime('%Y-%m-%d %H:%M:%S')
+    tempo_formatado = momento_atual.strftime('%d/%m/%Y %H:%M:%S')
     
     # Simula o processamento da transação
     print(f"Transação {id_transacao} processada.")
     
     # Registra a transação no log com a data e hora
     with open('log_transacoes.txt', 'a') as arquivo_log:
-        arquivo_log.write(f"{timestamp} - Transação {id_transacao}: R${valor:.2f}\n")
+        arquivo_log.write(f"{tempo_formatado} - Transação {id_transacao}: R${valor:.2f}\n")
 
 # Simulando algumas transações
 processar_transacao(1001, 250.75)
