@@ -5,6 +5,7 @@ import os
 algoritmos = ["bubble_sort","insertion_sort","selection_sort","merge_sort","quick_sort","shell_sort"]
 a = [64, 34, 25, 12, 22, 11, 90]
 
+
 def AlgAleatorio():
     num = aleatorio.numAleatorio()
     
@@ -49,5 +50,16 @@ def AlgAleatorio():
         print("Array Original:", a)
         print (Alg_Ordenacao.shell_sort(a.copy()))
         return print("O algoritmo selecionado foi o shell sort")
-    
-AlgAleatorio()
+
+def exibir_menu():
+    print("+------------------------+")
+    print("|       APS 2024        |")
+    print("+------------------------+")
+    print("| 1. Compare            |")
+    print("| 2. Execute Todos      |")
+    print("| 3. Busca Menor Distância |")
+    print("| 4. Sair               |")
+    print("+------------------------+")
+
+exibir_menu()
+AlgAleatorio()  
