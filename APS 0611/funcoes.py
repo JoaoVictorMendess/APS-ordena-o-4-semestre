@@ -191,7 +191,6 @@ def comparar_dois(lista):
     met1, met2 = random.sample(metodos, 2)
 
     tempo1 = calc_tempo(met1, lista)
-    time.sleep(2)
     tempo2 = calc_tempo(met2, lista)
     
     print(f"Método 1: {met1.__name__}")
