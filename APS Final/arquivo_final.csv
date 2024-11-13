@@ -1,0 +1,10 @@
+Algoritmo,Inicio,Fim,Tempo Total,Sistema Operacional,Versao SO,Nome Computador,Arquitetura,Processador,Cores Fisicos,Cores Logicos,Frequencia CPU (MHz),Memoria Total (GB),Armazenamento Total (GB),Armazenamento Usado (GB),Armazenamento Livre (GB)
+QuickSort,2024-11-13 16:28:46,2024-11-13 16:28:46,0.007398366928100586,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
+HeapSort,2024-11-13 16:28:48,2024-11-13 16:28:48,0.000982522964477539,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
+Merge Sort,2024-11-13 16:28:50,2024-11-13 16:28:50,0.014784097671508789,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
+BubbleSort,2024-11-13 16:28:52,2024-11-13 16:28:52,0.03099966049194336,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
+SelectionSort,2024-11-13 16:28:54,2024-11-13 16:28:54,0.014826536178588867,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
+BinaryInsertionSort,2024-11-13 16:28:56,2024-11-13 16:28:56,0.0009815692901611328,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
+BucketSort,2024-11-13 16:28:58,2024-11-13 16:28:58,0.0,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
+ShellSort,2024-11-13 16:29:00,2024-11-13 16:29:00,0.0009822845458984375,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
+InsertionSort,2024-11-13 16:29:02,2024-11-13 16:29:02,0.011826276779174805,Windows,10.0.22631,Kézio,AMD64,"AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",6,12,3501.0,15.93,464.95,348.34,116.61
